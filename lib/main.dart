@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
       getPages: Routes.Pages,
       initialRoute: '/homeScreen',
       home: Scaffold(
+        appBar: AppBar(),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
         ),
