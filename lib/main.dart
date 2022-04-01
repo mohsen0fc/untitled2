@@ -17,13 +17,6 @@ class MyApp extends StatelessWidget {
       initialBinding: MyBindings(),
       getPages: Routes.Pages,
       initialRoute: '/homeScreen',
-      home: Scaffold(
-        appBar: AppBar(),
-        floatingActionButton: FloatingActionButton(
-          onPressed: () {},
-        ),
-      ),
     );
   }
 }
-// Get average runtime of successful runs in seconds
