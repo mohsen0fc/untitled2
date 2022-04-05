@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
+      defaultTransition: Transition.downToUp,
       initialBinding: MyBindings(),
       getPages: Routes.Pages,
       initialRoute: '/homeScreen',
